@@ -1,7 +1,7 @@
 package inheritance.monster;
 
 public class Monster {
-    public double speedMove = 10;
+    public double speedMove;
     public double hitPoint;
 
     public void atack(){

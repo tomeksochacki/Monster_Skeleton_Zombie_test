@@ -10,7 +10,9 @@ public class InheritanceTwo {
         Monster monster = new Monster(10, 100);
         System.out.println(monster.speedMove);
 
-        Skeleton skeleton = new Skeleton(20, 50);
+        Skeleton skeleton = new Skeleton(20, 50, "gun");
+        System.out.println(skeleton.speedMove);
+
         Zombie zombie = new Zombie();
     }
 }
