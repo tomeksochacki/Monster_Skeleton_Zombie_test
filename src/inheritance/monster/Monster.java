@@ -1,15 +1,17 @@
 package inheritance.monster;
 
-public class Monster {
-    public double speedMove;
-    public double hitPoint;
+public abstract class Monster {
+    protected double speedMove;
+    protected double hitPoint;
 
-    public void atack(){
+    protected void atack(){
         /*
         DEAULT IMPLEMENTATION ATACK
          */
         System.out.println("This is method atack from class Monster");
     }
+
+    protected abstract void description();
 
     public Monster(){
         System.out.println("Default constructor from class Monster.");

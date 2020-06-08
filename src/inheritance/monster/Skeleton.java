@@ -10,6 +10,11 @@ public class Skeleton extends Monster {
         System.out.println("This is method attack from class Skeleton.");
     }
 
+    @Override
+    protected void description() {
+
+    }
+
     public Skeleton(){
         System.out.println("Default constructor from class Skeleton.");
     }
@@ -17,6 +22,7 @@ public class Skeleton extends Monster {
     public Skeleton(double speedMove, double hitPoint){
         super(speedMove, hitPoint);
         System.out.println("Not default constructor with two paramters, from class Skeleton.");
+
     }
 
     public Skeleton(double speedMove, double hitPoint, String typeWeapon){
