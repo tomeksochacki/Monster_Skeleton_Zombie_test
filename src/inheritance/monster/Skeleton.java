@@ -2,6 +2,14 @@ package inheritance.monster;
 
 public class Skeleton extends Monster {
     String typeWeapon;
+    public void atack(){
+        super.atack();
+        /*
+        ADDITIONAL INSTRUCTION ATTACK
+         */
+        System.out.println("This is method attack from class Skeleton.");
+    }
+
     public Skeleton(){
         System.out.println("Default constructor from class Skeleton.");
     }

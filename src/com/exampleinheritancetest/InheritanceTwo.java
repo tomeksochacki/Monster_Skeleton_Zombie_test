@@ -7,12 +7,12 @@ import inheritance.monster.Zombie;
 public class InheritanceTwo {
     public static void main(String[] args) {
 
-        Monster monster = new Monster(10, 100);
-        System.out.println(monster.speedMove);
+        Monster monster = new Skeleton(10, 100);
+        monster.atack();
 
-        Skeleton skeleton = new Skeleton(20, 50, "gun");
-        System.out.println(skeleton.speedMove);
+    }
 
-        Zombie zombie = new Zombie();
+    void method(Monster monster){
+        
     }
 }
